@@ -1,0 +1,64 @@
+body {
+  font-family: 'Montaga', serif;
+}
+
+.title {
+  background-color: #000000;
+  color: #ffffff;
+	padding: 3% 5%;
+}
+
+/* Nav Bar */
+
+.navbar-brand{
+ font-size: 3rem;
+ font-weight: bold;
+}
+
+nav{
+ margin-bottom: 5.3%;
+}
+
+.nav-item {
+ padding: 0 10px;
+ font-size: 1.2rem;
+ font-weight: lighter;
+}
+
+
+
+.title-button{
+  margin: 4% 3% 4% 0;
+}
+
+#main
+{
+  text-align: center;
+}
+.my-info{
+    padding: 2% 5%;
+}
+.container {
+  background-color: #ffffff;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: #CEE5D0;
+}
+
+.sucess {
+	background-color: #AFB9C8;
+}
+
+.secondary{
+background-color: #BFCBA8;
+}

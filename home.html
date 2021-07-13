@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Basic Banking System</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Font -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+
+  <script src="https://kit.fontawesome.com/ba436ef04b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="title">
+    <!-- Previously it was <section> but now I have changed to <div> -->
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="#"><i class="fas fa-university logo-img"></i>    TSF BANK</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="customer.html" target="_blank">View Customers & Transfer History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Testimonials">About Us</a>
+              <!-- Anchor target to navigate within the same page. By prepending your href with #, you can target an HTML element with a specific id attribute.
+            For example, <a href="#footer"> will navigate to the <div id="footer"> within the same HTML document. This type of href is often used to navigate back to the top of the page.  -->
+
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Make sure your transcation will be secure.</h1>
+          <a href="customer.html"><button type="button" class="title-button btn btn-dark btn-lg">View Coustomers</button></a>
+          <a href="customer.html"><button type="button" class="title-button btn btn-outline-light btn-lg">Transfer History</button></a>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-img" src="images/bank.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features -->
+
+  <div class="features-box">
+    <div class="row">
+      <div class="features col-lg-4">
+        <i class="fas fa-check-circle fa-4x logo"></i>
+        <!-- fa-4x will increase the size of the image (just remember it) -->
+        <h3><strong>Easy to use.</strong></h3>
+       
+      </div>
+
+      <div class="features col-lg-4">
+        <i class="fas fa-hand-holding-usd fa-4x logo"></i>
+        <h3><strong>Security Provided.</strong></h3>
+        
+      </div>
+      <div class="features col-lg-4">
+        <i class="fas fa-wallet fa-4x logo"></i>
+        <h3><strong>Directly connected to your PayTm Wallet.</strong></h3>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Testimonials -->
+
+  <div class="testimonials">
+
+    <!-- Carousel -->
+
+    <div id="Testimonials" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Slideshow 1 -->
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">Do banking in just single click</h2>
+          <em>You can check your transaction easily by one click.</em>
+          <br>
+          <img class="testimonial-img" src="images/download1.jpg">
+        </div>
+
+        <!-- Slideshow 2 -->
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Check your Transaction.</h2>
+          <em>We provide you best and secure networks to work.</em>
+          <br>
+          <img class="testimonial-img" src="images/download2.png">
+        </div>
+
+        <!-- Slideshow 3 -->
+        <div class="carousel-item">
+          <h2 class="testimonial-text">We are here for a service of trust.</h2>
+          <em>Send your money easily from anywhere.</em>
+          <br>
+          <img class="testimonial-img" src="images/download.jpg">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#Testimonials" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#Testimonials" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+
+  <!-- Call to Action -->
+
+  <div id="cta">
+    <!-- Anchor target to navigate within the same page. By prepending your href with #, you can target an HTML element with a specific id attribute.
+  For example, <a href="#footer"> will navigate to the <div id="footer"> within the same HTML document. This type of href is often used to navigate back to the top of the page.  -->
+
+    <h3 class="cta-h3">Download our app now!!</h3>
+    <button type="button" class="cta-button btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="cta-button btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+
+
+  </div>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <!-- Anchor target to navigate within the same page. By prepending your href with #, you can target an HTML element with a specific id attribute.
+  For example, <a href="#footer"> will navigate to the <div id="footer"> within the same HTML document. This type of href is often used to navigate back to the top of the page.  -->
+
+    <i class="footer-icon fab fa-twitter"></i>
+    <i class="footer-icon fab fa-facebook-f"></i>
+    <i class="footer-icon fab fa-instagram"></i>
+    <i class="footer-icon fas fa-envelope" style=" color: black; "></i>
+    <br>
+    <p>Address- Hyderbad, Telengana, 002021<p>
+    <p class="footer-p">© Copyright 2021 TSF BANK</p>
+
+  </footer>
+
+  <script>
+    var preloader = document.getElementById("loading");
+    function loader(){
+      preloader.style.display = 'none';
+    }
+  </script>
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 700,
+    });
+  </script>
+
+</body>
+
+</html>
